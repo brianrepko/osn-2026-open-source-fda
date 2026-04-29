@@ -4,9 +4,7 @@
 .RData
 .Ruserdata
 .positai
-.quarto/
-_extensions/
-_output/
-
 /.quarto/
 **/*.quarto_ipynb
+_extensions/
+_output/

@@ -9,5 +9,44 @@ format:
 editor: source
 ---
 
-## Intro
+## Introduction
+<!--
+- caveat on drugs/biologics vs devices (vs MN in general)
+- caveat on R vs python
+-->
+
+# Getting to know the FDA
+
+## History
+<!--
+- timeline with major legislation
+-->
+
+## Organization / Submissions
+* Sub-organizations
+  * CDER --> drugs
+  * CBER --> biologics
+  * CDRH --> devices
+* Submission Types
+  * IND (investigational new drug / biologic)
+  * IDE (investigational device exemption)
+  * NDA (new drug application)
+  * ANDA (generic - or new indication?)
+  * BLA (therapeutic biologic application) - not sure about bio-similars
+  * Device submissions based on risk - Class I/II/III
+  * 510(k) - substantially equivalent or PMA - de novo
+
+## History of Submissions
+
+## The ICH
+
+# Code and Data
+
+## SAS (closed) to Open Source in Pharma
+
+
+
+
+
+
 
