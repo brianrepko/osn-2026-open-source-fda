@@ -1,0 +1,13 @@
+---
+title: "Open Source and the FDA"
+author: "Brian Repko"
+format: 
+  revealjs:
+    theme: default
+    slide-number: c/t
+    footer: "OSN 2026"
+editor: source
+---
+
+## Intro
+
