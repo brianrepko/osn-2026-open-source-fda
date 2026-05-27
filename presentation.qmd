@@ -413,8 +413,9 @@ _**Safety**_
 
 ::: {.column width="50%"}
 
-* The future of working with the FDA is based on open source technologies
-* THANK YOU!!
+The future of therapeutic development is open source
+
+THANK YOU!!
 
 ![](./images/qr-code.png){width="200"}
 :::
