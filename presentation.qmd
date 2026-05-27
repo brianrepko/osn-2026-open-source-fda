@@ -70,8 +70,12 @@ filters:
 
 Ensure purity and safety of serums, vaccines and similar products
 
-<!-- Enforced by US Public Health and Marine-Hospital Service Hygienic Laboratory -->
-<!-- death of children -->
+::: {.notes}
+Enforced by US Public Health and Marine-Hospital Service Hygienic Laboratory
+
+Death of children
+:::
+
 :::
 
 ::: {.event data-label="1906"}
@@ -79,7 +83,9 @@ Ensure purity and safety of serums, vaccines and similar products
 
 Prohibits sale of misbranded (strength, purity) and adulterated foods, drinks, and drugs
 
-<!-- Enforced by USDA Bureau of Chemistry -->
+::: {.notes}
+Enforced by USDA Bureau of Chemistry
+:::
 :::
 
 ::: {.event .fragment data-label="1910"}
@@ -107,10 +113,16 @@ Replaces the PF&D Act and Sherley Amendment [(after 5 years debate)]{.rn-fragmen
 
 Manufacturer has to show a drug is [safe before it can be marketed (NDA submission)]{.rn-fragment rn-type=highlight rn-multiline=true}
 
-<!-- Required adequate labeling for safe use, safe tolerances for poisons and authorized factory inspections -->
-<!-- NDA is approved after certain time period -->
-<!-- Extended control to cosmetics and therapeutic devices -->
-<!-- took someone selling anti-freeze as a drug solvent -->
+::: {.notes}
+
+Required adequate labeling for safe use, safe tolerances for poisons and authorized factory inspections
+
+NDA is approved after certain time period
+
+Extended control to cosmetics and therapeutic devices
+
+Took someone selling anti-freeze as a drug solvent
+:::
 :::
 
 ::: {.event .fragment data-label="1951"}
@@ -170,30 +182,33 @@ Submissions have no data standards, loose document structure, and reams of paper
 * [Trials to analyze by age, gender, and race]{.rn-fragment rn-type=bracket rn-brackets=left,right rn-color=red} - Demographics Rule - 1998
 * FDA clinical trial registry - ClinicalTrials.gov - 1999
 * [Submissions move from paper to electronic (PDFs and more)]{.rn-fragment rn-type=highlight}
-* Submissions include code, spreadsheets, databases - sponsors would loan PC to FDA
+* Submissions include code, data (spreadsheets, databases) - PCs sent to FDA
 * [SAS XPT (v5) is required for data - 1999]{.rn-fragment rn-type=highlight}
 * FDA is founding member of [ICH (1990)]{.rn-fragment rn-type=highlight} and [CDISC (2000)]{.rn-fragment rn-type=highlight} - STANDARDS-ish!
 
-<!--
- Food and Drug Modernization Act
- - reauth'd the user fees
- - biologics similar to drugs
- - off-label use promoted by pharma
- - pharmacy compounding
- - risk based classification for devices
- - reinventing government (internet!)
--->
-<!-- 
-  Changes since 2000
-  2003 - shuffle things between CDER and CBER
-  2010 - biosimilars
-  2017 - eCTD is required
-  2022 - removal of requirement for rodent/non-rodent 
--->
+::: {.notes}
+
+Food and Drug Modernization Act
+
+* reauth'd the user fees
+* biologics similar to drugs
+* off-label use promoted by pharma
+* pharmacy compounding
+* risk based classification for devices
+* reinventing government (internet!)
+
+Changes since 2000
+
+* 2003 - shuffle things between CDER and CBER
+* 2010 - biosimilars
+* 2017 - eCTD is required
+* 2022 - removal of requirement for rodent/non-rodent
+
+:::
 
 ## ICH - `www.ich.org` {.smaller}
 
-* The "United Nations" for regulatory agencies (RA)
+* [The "United Nations" for regulatory agencies (RA)]{.rn-fragment rn-type=highlight}
   * Officially the "International Council for Harmonization of Technical Requirements for Pharmaceuticals for Human Use"
 * Guidelines
   * Identified with pattern \<A\>\<N\> - with potential revisions (R\<N\>)
@@ -247,7 +262,7 @@ _**Multi-Disciplinary**_
 
 **M10** Bioanalytical Method Validation
 
-**M11** [Clinical electronic Structured Harmonized Protocol (CeSHarP)]{.rn-fragment rn-type=circle rn-color=blue rn-multiline=true fragment-index=9}
+**M11** [Clinical electronic Structured Harmonized Protocol (CeSHarP)]{.rn-fragment rn-type=highlight rn-color=green rn-multiline=true fragment-index=9}
 
 _**Safety**_
 
@@ -274,11 +289,11 @@ _**Safety**_
 * eCTD is a digital version of this (folder / file structure)
   * eCTD v4 is just now accepted by FDA
 * CSR is a clinical study report and is the contents of "m5"
-  * Online books for this for [R](https://r4csr.org){target="_blank"} and [Python](https://pycsr.org){target="_blank"}
+  * Online books for how to do this in [R](https://r4csr.org){target="_blank"} and [Python](https://pycsr.org){target="_blank"}
 
 ## CDISC - `www.cdisc.org` {.smaller}
 
-* Global non-profit setting data standards for clinical trials
+* [Global non-profit setting data standards for clinical trials]{.rn-fragment rn-type=highlight}
 * Foundational standards are all XML-based
 * Most specifications are "guidelines" and come with implementation guides
   * Some guides are based on therapeutic area
@@ -287,8 +302,8 @@ _**Safety**_
 * Runs [COSA - CDISC Open-Source Alliance]{.rn-fragment rn-type=underline rn-color=red}
 * Works with other standards organizations - FHIR, OHDSI
 * ["Define" the main data standards to be included in the CSR]{.rn-fragment rn-type=highlight}
-* Different RAs have different rules on use of CDISC
-* For FDA, CDER/CBER have different rules from CDRH
+* [Different RAs have different rules on use of CDISC]{.rn-fragment rn-type=underline rn-color=red}
+* [Even for FDA - CDER, CBER, and CDRH have different rules]{.rn-fragment rn-type=underline rn-color=red}
 
 ## CDISC standards {.smaller}
 
@@ -303,7 +318,7 @@ _**Safety**_
   * Model (and meta-model) [for statistical output from ADaM data]{.rn-fragment rn-type=underline rn-color=red}
   * This can be input data for Tables, Listings, and Figures (TLFs)
 * Data flow
-  * [CRF]{.rn-fragment rn-type=highlight} &rarr; EDC &rarr; [SDTM data]{.rn-fragment rn-type=highlight} &rarr; [ADaM data]{.rn-fragment rn-type=highlight} &rarr; ARD &rarr; [TLF for PDFs]{.rn-fragment rn-type=highlight}
+  * [raw/CRF]{.rn-fragment rn-type=highlight} &rarr; EDC &rarr; [SDTM data]{.rn-fragment rn-type=highlight} &rarr; [ADaM data]{.rn-fragment rn-type=highlight} &rarr; ARD &rarr; [TLFs for PDFs]{.rn-fragment rn-type=highlight}
   * Metadata for all of this (traceability, quality) - common file is [define.xml]{.rn-fragment rn-type=highlight}
 
 # The Shift to Open Source
@@ -386,7 +401,7 @@ _**Safety**_
   * Packages to collect risk metrics, publish to repository, generate documentation
 * ICH / FDA / CDISC
   * M11 and USDM, automation / "AI" / 360i, FDA "real-time" trials, [dataset-json](https://brianrepko.github.io/blog/index.html#category=pharmaverse){target="_blank"}
-  * Supporting SAS XPT (v5) is the reason we can't have nice things
+  * [Supporting SAS XPT (v5) is the reason we can't have nice things]{.rn-fragment rn-type=underline rn-color=red}
 * Successes
   * Novo Nordisk committed all new trials to R - [first R-based submission](https://posit.co/about/customer-stories/novo-nordisk){target="_blank"} to FDA
   * Roche [webinar on their first R-based submission](https://posit.co/blog/roches-first-end-to-end-r-journey-to-submission){target="_blank"} to FDA, EMA, and NMPA
