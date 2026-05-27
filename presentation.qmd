@@ -219,7 +219,7 @@ Changes since 2000
   * Divided into chapters and sub-chapters (FDA is Chapter I, Subchapters A through L)
   * Divided into parts assigned to sub-chapters (FDA is parts 1-1299)
   * eg. Part 11 covers computer system / software validation
-  * [FDA provides a lot more documentation than just the 21 CFR regulations]{.rn-fragment rn-type=underline rn-color=red}
+  * [FDA provides [a lot more documentation](https://www.fda.gov/industry/fda-data-standards-advisory-board/study-data-standards-resources){target="_blank"} than just the 21 CFR regulations]{.rn-fragment rn-type=underline rn-color=red}
 
 ## ICH Guidelines (highlights) {.smaller}
 
@@ -287,7 +287,7 @@ _**Safety**_
   * M4 Non-clinical study reports
   * M5 Clinical study reports
 * eCTD is a digital version of this (folder / file structure)
-  * eCTD v4 is just now accepted by FDA
+  * eCTD v4 is [just now accepted by FDA](https://intuitionlabs.ai/articles/ich-m8-ectd-v4-specification){target="_blank"}
 * CSR is a clinical study report and is the contents of "m5"
   * Online books for how to do this in [R](https://r4csr.org){target="_blank"} and [Python](https://pycsr.org){target="_blank"}
 
@@ -425,3 +425,15 @@ _**Safety**_
 :::
 
 ::::
+
+::: {.notes}
+Resource links
+
+* Clinical Standards web - https://www.clinstandards.org
+* PSI (Statisticians in the Pharmasceutical Industry) - https://www.psiweb.org
+* TransCelerate - https://www.transceleratebiopharmainc.com
+* BioCelerate   https://biocelerate.org
+* Clinical Research Data Sharing Alliance - https://crdsalliance.org/
+* OHDSI
+* GA4GH
+:::
