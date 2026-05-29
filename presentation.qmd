@@ -383,25 +383,30 @@ _**Safety**_
 
 ## `{pharmaverse}` Packages {.smaller}
 
-* [SDTM packages](https://pharmaverse.org/e2eclinical/sdtm/){target="_blank"} for converting CRF/raw data to SDTM
-* [ADaM packages](https://pharmaverse.org/e2eclinical/adam/){target="_blank"} for converting SDTM data to ADaM
-* [TLGs packages](https://pharmaverse.org/e2eclinical/tlg/){target="_blank"} for creating ARM/ARD data, TLFs, interactive apps, etc.
-* [eSub packages](https://pharmaverse.org/e2eclinical/esub/){target="_blank"} for creating data files needed for eCTD submissions
-* [Metadata packages](https://pharmaverse.org/e2eclinical/metadata/){target="_blank"} for meta-data driven study data flows
-* [Utility packages](https://pharmaverse.org/e2eclinical/utility/){target="_blank"} for architectural concerns (logging, diffs)
-* [Developers packages](https://pharmaverse.org/e2eclinical/developers/){target="_blank"} for validation, CI/CD, data
-* and [examples](https://pharmaverse.github.io/examples/){target="_blank"} you can run on Posit Cloud or locally
+* Packages
+  * [SDTM packages](https://pharmaverse.org/e2eclinical/sdtm/){target="_blank"} for converting CRF/raw data to SDTM
+  * [ADaM packages](https://pharmaverse.org/e2eclinical/adam/){target="_blank"} for converting SDTM data to ADaM
+  * [TLGs packages](https://pharmaverse.org/e2eclinical/tlg/){target="_blank"} for creating ARM/ARD data, TLFs, interactive apps, etc.
+  * [eSub packages](https://pharmaverse.org/e2eclinical/esub/){target="_blank"} for creating data files needed for eCTD submissions
+  * [Metadata packages](https://pharmaverse.org/e2eclinical/metadata/){target="_blank"} for meta-data driven study data flows
+  * [Utility packages](https://pharmaverse.org/e2eclinical/utility/){target="_blank"} for architectural concerns (logging, diffs)
+  * [Developers packages](https://pharmaverse.org/e2eclinical/developers/){target="_blank"} for validation, CI/CD, data
+
+* Learning Resources
+  * Full [examples website](https://pharmaverse.github.io/examples/){target="_blank"} you can run on Posit Cloud or locally
+  * See [Navitas webinar](https://www.youtube.com/watch?v=zYCOxWk9bYY){target="_blank"} for more on this
+  * [30 days of pharmaverse](https://www.indraneelchakraborty.com/30-days-of-pharmaverse/){target="_blank"}
 
 ## Where we at? {.smaller}
 
 * Submissions
-  * Pilots - execute R, custom packages, `{shiny}` apps, `{renv}`, podman, WebAssembly, dataset-json
+  * [Pilots](https://r-consortium.org/posts/submissions-wg-2026/index.html){target="_blank"} - execute R, custom packages, `{shiny}` apps, `{renv}`, podman, WebAssembly, dataset-json
   * FDA regulatory changes on using `.zip` files for custom R packages
 * Validation
-  * Packages to collect risk metrics, publish to repository, generate documentation
-* ICH / FDA / CDISC
+  * Packages to collect risk metrics, publish to repos, generate docs, [R itself](https://www.r-project.org/doc/R-FDA.pdf){target="_blank"}
+  * Meta-packages to track issues and generate docs - [`{qcchat}`](https://gilead-biostats.github.io/qcthat/){target="_blank"}
+* ICH / FDA / CDISC work
   * M11 and USDM, automation / "AI" / 360i, FDA "real-time" trials, [dataset-json](https://brianrepko.github.io/blog/index.html#category=pharmaverse){target="_blank"}
-  * [Supporting SAS XPT (v5) is the reason we can't have nice things]{.rn-fragment rn-type=underline rn-color=red}
 * Successes
   * Novo Nordisk committed all new trials to R - [first R-based submission](https://posit.co/about/customer-stories/novo-nordisk){target="_blank"} to FDA
   * Roche [webinar on their first R-based submission](https://posit.co/blog/roches-first-end-to-end-r-journey-to-submission){target="_blank"} to FDA, EMA, and NMPA
