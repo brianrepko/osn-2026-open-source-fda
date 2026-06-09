@@ -427,7 +427,7 @@ THANK YOU!!
 
 ::: {.column width="40%"}
 
-![](./images/sas-grave.jpg){width="400"}
+![](./images/sas-nicer-grave.png){width="400"}
 :::
 
 ::::
